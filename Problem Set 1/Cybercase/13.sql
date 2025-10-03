@@ -1,0 +1,2 @@
+SELECT COUNT(DISTINCT title) FROM episodes
+WHERE season = 5 AND air_date BETWEEN "2015-01-01" AND "2020-04-05";
