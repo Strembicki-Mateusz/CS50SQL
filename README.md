@@ -8,3 +8,6 @@ The Problems as well as databases to tasks can be found at https://cs50.harvard.
 
 ## Problem Set 2
 The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/1/.
+
+## Problem Set 3
+The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/2/.
