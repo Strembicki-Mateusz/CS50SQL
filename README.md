@@ -1,7 +1,7 @@
 # CS50SQL
 Solution of Tasks from CS50SQL Harvard course.
 This repository is to track and show learning SQL process.
-Firstly tasks were based at https://submit.cs50.io/users/Strembicki-Mateusz then solutions were copied to this repository
+Firstly tasks were based at https://submit.cs50.io/users/Strembicki-Mateusz then solutions were copied to this repository.
 
 ## Problem Set 1
 The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/0/.
@@ -18,3 +18,5 @@ The Problems as well as databases to tasks can be found at https://cs50.harvard.
 ## Problem Set 5
 The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/4/.
 
+## Problem Set 6
+The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/5/.
