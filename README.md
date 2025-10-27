@@ -20,3 +20,7 @@ The Problems as well as databases to tasks can be found at https://cs50.harvard.
 
 ## Problem Set 6
 The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/5/.
+
+## Problem Set 7
+The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/6/.
+(Task 'Deep' will be uploaded later)
