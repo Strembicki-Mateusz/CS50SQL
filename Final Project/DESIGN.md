@@ -78,7 +78,7 @@ The database does *not* allow:
 | TikTok → TikTok Logs | One-to-Many | Each TikTok can have multiple rating changes. |
 
 ### Entity Diagram
-![IMAGE TITLE](CS50_diagram.png)
+![IMAGE TITLE](CS50_diag.png)
 
 ## Optimizations
 
