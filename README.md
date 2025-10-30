@@ -24,3 +24,7 @@ The Problems as well as databases to tasks can be found at https://cs50.harvard.
 ## Problem Set 7
 The Problems as well as databases to tasks can be found at https://cs50.harvard.edu/sql/psets/6/.
 (Task 'Deep' will be uploaded later)
+
+## Final Project
+Specification and requirements of final project are placed at https://cs50.harvard.edu/sql/project/.
+More info about project in Final Project folder. There is *.md file which is description of my individual concept to pass CS50 SQL course.
