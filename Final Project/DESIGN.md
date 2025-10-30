@@ -26,7 +26,6 @@ The database does *not* include:
 - Artist discographies beyond individual songs.
 - Advanced user behavior analytics (e.g., session data, geolocation).
 
----
 
 ## Functional Requirements
 
@@ -46,7 +45,6 @@ The database does *not* allow:
 - Handling monetary transactions, sponsorships, or advertisements.
 - Running AI-driven recommendations or predictions directly in SQL.
 
----
 
 ## Representation
 
@@ -68,7 +66,6 @@ The database does *not* allow:
 - `FOREIGN KEY ... ON DELETE CASCADE` maintains referential integrity and supports automatic cleanup.
 - `deleted` flag implements *soft delete* instead of physical removal for auditability.
 
----
 
 ### Relationships
 
@@ -80,7 +77,9 @@ The database does *not* allow:
 | Style → TikTok | One-to-Many | Each TikTok has one dominant dance style. |
 | TikTok → TikTok Logs | One-to-Many | Each TikTok can have multiple rating changes. |
 
-**ER Diagram (conceptual)**
+### Entity Diagram
+![IMAGE TITLE](CS50_diagram.png)
+
 ## Optimizations
 
 ### Indexes
@@ -107,7 +106,6 @@ Used to maintain data consistency:
 - `cleanup_orphan_songs` → Removes unused songs after artist deletion.
 - `soft_delete_tiktok` → Converts DELETE into soft delete.
 
----
 
 ## Limitations
 
@@ -117,7 +115,6 @@ Used to maintain data consistency:
 - Limited scalability — SQLite is sufficient for prototype/academic use but not for large-scale production.
 - Age groups are hardcoded and may not adapt dynamically to user demographics.
 
----
 
 ## Future Improvements
 
@@ -127,7 +124,6 @@ Used to maintain data consistency:
 - Add **user location** for geographic analysis of dance trends.
 - Support **multiple platforms** (e.g., YouTube Shorts, Instagram Reels) for broader comparison.
 
----
 
 ## Summary
 The *Dance Analytics* database provides a well-normalized, efficient schema to study the interplay between users, songs, artists, and dance styles on a social video platform.
